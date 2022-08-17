@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CF7770728AD0E3D00047697 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7770628AD0E3D00047697 /* AppDelegate.swift */; };
+		7CF7770928AD0E3D00047697 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7770828AD0E3D00047697 /* SceneDelegate.swift */; };
+		7CF7770B28AD0E3D00047697 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7770A28AD0E3D00047697 /* ViewController.swift */; };
+		7CF7770E28AD0E3D00047697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF7770C28AD0E3D00047697 /* Main.storyboard */; };
+		7CF7771028AD0E3F00047697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CF7770F28AD0E3F00047697 /* Assets.xcassets */; };
+		7CF7771328AD0E3F00047697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF7771128AD0E3F00047697 /* LaunchScreen.storyboard */; };
+		7CF7771B28AD0EC400047697 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7771A28AD0EC400047697 /* Observable.swift */; };
+		7CF7771F28AD163100047697 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7771E28AD163100047697 /* Model.swift */; };
+		7CF7772128AD17DB00047697 /* GetPostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7772028AD17DB00047697 /* GetPostsViewModel.swift */; };
+		7CF7772328AD194500047697 /* TableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7772228AD194500047697 /* TableViewCellViewModel.swift */; };
+		B12850645445478CEB523480 /* Pods_KVOApiCall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1B194F1EC9726A1BB297DA /* Pods_KVOApiCall.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CA5A9A72012BC636B0AA1DB /* Pods-KVOApiCall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVOApiCall.release.xcconfig"; path = "Target Support Files/Pods-KVOApiCall/Pods-KVOApiCall.release.xcconfig"; sourceTree = "<group>"; };
+		7CF7770328AD0E3D00047697 /* KVOApiCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVOApiCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CF7770628AD0E3D00047697 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CF7770828AD0E3D00047697 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CF7770A28AD0E3D00047697 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CF7770D28AD0E3D00047697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CF7770F28AD0E3F00047697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CF7771228AD0E3F00047697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CF7771428AD0E3F00047697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CF7771A28AD0EC400047697 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		7CF7771E28AD163100047697 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		7CF7772028AD17DB00047697 /* GetPostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPostsViewModel.swift; sourceTree = "<group>"; };
+		7CF7772228AD194500047697 /* TableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellViewModel.swift; sourceTree = "<group>"; };
+		A25B0FA494B9AC87ED4B5214 /* Pods-KVOApiCall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVOApiCall.debug.xcconfig"; path = "Target Support Files/Pods-KVOApiCall/Pods-KVOApiCall.debug.xcconfig"; sourceTree = "<group>"; };
+		DB1B194F1EC9726A1BB297DA /* Pods_KVOApiCall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVOApiCall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CF7770028AD0E3D00047697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12850645445478CEB523480 /* Pods_KVOApiCall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		214295CC2B53897B9E6F8C61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB1B194F1EC9726A1BB297DA /* Pods_KVOApiCall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B0D064127BE690395837839 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A25B0FA494B9AC87ED4B5214 /* Pods-KVOApiCall.debug.xcconfig */,
+				6CA5A9A72012BC636B0AA1DB /* Pods-KVOApiCall.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7CF776FA28AD0E3D00047697 = {
+			isa = PBXGroup;
+			children = (
+				7CF7770528AD0E3D00047697 /* KVOApiCall */,
+				7CF7770428AD0E3D00047697 /* Products */,
+				3B0D064127BE690395837839 /* Pods */,
+				214295CC2B53897B9E6F8C61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CF7770428AD0E3D00047697 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CF7770328AD0E3D00047697 /* KVOApiCall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CF7770528AD0E3D00047697 /* KVOApiCall */ = {
+			isa = PBXGroup;
+			children = (
+				7CF7770628AD0E3D00047697 /* AppDelegate.swift */,
+				7CF7770828AD0E3D00047697 /* SceneDelegate.swift */,
+				7CF7770A28AD0E3D00047697 /* ViewController.swift */,
+				7CF7771E28AD163100047697 /* Model.swift */,
+				7CF7771A28AD0EC400047697 /* Observable.swift */,
+				7CF7772028AD17DB00047697 /* GetPostsViewModel.swift */,
+				7CF7772228AD194500047697 /* TableViewCellViewModel.swift */,
+				7CF7770C28AD0E3D00047697 /* Main.storyboard */,
+				7CF7770F28AD0E3F00047697 /* Assets.xcassets */,
+				7CF7771128AD0E3F00047697 /* LaunchScreen.storyboard */,
+				7CF7771428AD0E3F00047697 /* Info.plist */,
+			);
+			path = KVOApiCall;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CF7770228AD0E3D00047697 /* KVOApiCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CF7771728AD0E3F00047697 /* Build configuration list for PBXNativeTarget "KVOApiCall" */;
+			buildPhases = (
+				5B61FDC9FC52276579185F8D /* [CP] Check Pods Manifest.lock */,
+				7CF776FF28AD0E3D00047697 /* Sources */,
+				7CF7770028AD0E3D00047697 /* Frameworks */,
+				7CF7770128AD0E3D00047697 /* Resources */,
+				7D802FD01BFF9ACF8D367557 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVOApiCall;
+			productName = KVOApiCall;
+			productReference = 7CF7770328AD0E3D00047697 /* KVOApiCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CF776FB28AD0E3D00047697 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7CF7770228AD0E3D00047697 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7CF776FE28AD0E3D00047697 /* Build configuration list for PBXProject "KVOApiCall" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CF776FA28AD0E3D00047697;
+			productRefGroup = 7CF7770428AD0E3D00047697 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CF7770228AD0E3D00047697 /* KVOApiCall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CF7770128AD0E3D00047697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF7771328AD0E3F00047697 /* LaunchScreen.storyboard in Resources */,
+				7CF7771028AD0E3F00047697 /* Assets.xcassets in Resources */,
+				7CF7770E28AD0E3D00047697 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B61FDC9FC52276579185F8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KVOApiCall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D802FD01BFF9ACF8D367557 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KVOApiCall/Pods-KVOApiCall-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KVOApiCall/Pods-KVOApiCall-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KVOApiCall/Pods-KVOApiCall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CF776FF28AD0E3D00047697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CF7772328AD194500047697 /* TableViewCellViewModel.swift in Sources */,
+				7CF7771F28AD163100047697 /* Model.swift in Sources */,
+				7CF7771B28AD0EC400047697 /* Observable.swift in Sources */,
+				7CF7770B28AD0E3D00047697 /* ViewController.swift in Sources */,
+				7CF7770728AD0E3D00047697 /* AppDelegate.swift in Sources */,
+				7CF7770928AD0E3D00047697 /* SceneDelegate.swift in Sources */,
+				7CF7772128AD17DB00047697 /* GetPostsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CF7770C28AD0E3D00047697 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF7770D28AD0E3D00047697 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CF7771128AD0E3F00047697 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CF7771228AD0E3F00047697 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CF7771528AD0E3F00047697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CF7771628AD0E3F00047697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CF7771828AD0E3F00047697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25B0FA494B9AC87ED4B5214 /* Pods-KVOApiCall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGV3S4FVLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KVOApiCall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nspira.KVOApiCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CF7771928AD0E3F00047697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CA5A9A72012BC636B0AA1DB /* Pods-KVOApiCall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGV3S4FVLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KVOApiCall/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nspira.KVOApiCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CF776FE28AD0E3D00047697 /* Build configuration list for PBXProject "KVOApiCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF7771528AD0E3F00047697 /* Debug */,
+				7CF7771628AD0E3F00047697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CF7771728AD0E3F00047697 /* Build configuration list for PBXNativeTarget "KVOApiCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CF7771828AD0E3F00047697 /* Debug */,
+				7CF7771928AD0E3F00047697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CF776FB28AD0E3D00047697 /* Project object */;
+}

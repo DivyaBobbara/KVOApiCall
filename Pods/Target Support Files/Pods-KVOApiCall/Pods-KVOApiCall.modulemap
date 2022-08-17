@@ -1,0 +1,6 @@
+framework module Pods_KVOApiCall {
+  umbrella header "Pods-KVOApiCall-umbrella.h"
+
+  export *
+  module * { export * }
+}
